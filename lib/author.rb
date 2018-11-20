@@ -1,12 +1,14 @@
 class Author
   attr_accessor :name
-@all = []
+    @@all = []
+
   def initialize(name)
     @name = name
-    self << @@all
+    @@all << self 
   end
+
   def posts
     binding.pry
-    
+
   end
 end
