@@ -26,6 +26,11 @@ class Artist
     binding.pry
   end
 
+  def self.all 
+    @all = all 
+  end
+    
+
   def add_song(song)
     @songs << song
     song.artist = self
