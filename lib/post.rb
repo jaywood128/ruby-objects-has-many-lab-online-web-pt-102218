@@ -12,8 +12,7 @@ class Post
   end
 
   def author_name
-    binding.pry
-
+    author.name
   end
 
 end
