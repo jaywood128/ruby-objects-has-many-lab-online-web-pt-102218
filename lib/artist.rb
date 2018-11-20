@@ -23,7 +23,7 @@ class Artist
 
   def self.song_count
     binding.pry
-    Artist.all.count
+    Artist.all.count.uniq!
 
   end
 
