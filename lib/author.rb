@@ -6,6 +6,6 @@ class Author
   end
   def posts
     self << @posts
-    @posts
+
   end
 end
