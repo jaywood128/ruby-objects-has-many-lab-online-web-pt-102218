@@ -27,7 +27,7 @@ class Artist
   end
 
   def self.all
-    @songs.count
+    Song.count
   end
 
 
