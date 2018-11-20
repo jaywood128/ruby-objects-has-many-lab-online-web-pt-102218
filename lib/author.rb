@@ -5,7 +5,6 @@ class Author
     @name = name
   end
   def posts
-
-    binding.pry
+    @posts
   end
 end

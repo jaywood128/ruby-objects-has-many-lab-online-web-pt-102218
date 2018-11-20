@@ -1,6 +1,6 @@
-class Post 
+class Post
 
-  attr_accessor :posts 
+  attr_accessor :posts
 
 
 end 
