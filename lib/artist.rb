@@ -1,7 +1,6 @@
-<<<<<<< HEAD
-require 'pry'
-=======
->>>>>>> 43becb53bbd3d20e914cebb3cece40347dd6f5d7
+
+
+
 class Artist
   attr_accessor :name, :songs
 
@@ -10,7 +9,7 @@ class Artist
     @songs = []
   end
 
-<<<<<<< HEAD
+
   def add_song(song)
     @songs << song
     song.artist = self
@@ -26,11 +25,10 @@ class Artist
   def self.song_count
     binding.pry
     @songs
-=======
+
   def add_song(songs)
     self
     binding.pry
->>>>>>> 43becb53bbd3d20e914cebb3cece40347dd6f5d7
   end
 
 end
