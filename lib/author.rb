@@ -27,5 +27,6 @@ class Author
 
   def author_name
     binding.pry
+  end
 
 end
