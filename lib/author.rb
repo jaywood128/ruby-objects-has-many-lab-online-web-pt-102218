@@ -3,10 +3,10 @@ class Author
 @all = []
   def initialize(name)
     @name = name
-    @all << self
+    self << @@all
   end
   def posts
     binding.pry
-    @posts
+    
   end
 end
