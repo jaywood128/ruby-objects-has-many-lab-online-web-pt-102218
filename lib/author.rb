@@ -14,4 +14,5 @@ class Author
 
   def add_post(post)
     binding.pry
+  end
 end
