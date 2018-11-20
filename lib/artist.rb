@@ -30,4 +30,9 @@ class Artist
     @@all
   end
 
+  def songs
+    binding.pry
+
+  end
+
 end
