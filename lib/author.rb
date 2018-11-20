@@ -13,6 +13,8 @@ class Author
   end
 
   def add_post(post)
-    binding.pry
+    new_post = Post.new(post)
+    @all << new_post 
+    
   end
 end
